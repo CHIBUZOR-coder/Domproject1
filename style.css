@@ -1,0 +1,109 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  /* align-items: center; */
+  position: relative;
+  display: flow-root;
+  height: 100vh;
+  background: url(../imajes/good.jpg) no-repeat center/ cover;
+}
+
+#quoates {
+  position: relative;
+  background-color: black;
+  color: aqua;
+}
+
+.first {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin: 120px auto 0 auto;
+  /* background-color: blue; */
+  display: flow-root;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  margin-top: 10px;
+  background-color: white;
+  display: flow-root;
+  box-shadow: -4px 4px 10px rgba(12, 11, 11, 5);
+  border-radius: 5px;
+}
+
+.javascript {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  color: aqua;
+  width: 60%;
+  font-size: larger;
+  box-shadow: 0 4px 8px rgba(233, 221, 221, 0.2);
+  border: 2px solid aqua;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.sdiv{
+  position: relative;
+  height: 50%;
+}
+.quot {
+  display: flex;
+  position: relative;
+  top: 15px;
+  padding-top: 5px;
+  font-size: 1.3em;
+}
+
+.person {
+  position: relative;
+  /* background-color: blueviolet; */
+  margin-top: 50px;
+  display: flow-root;
+  font-size: 1.6em;
+  font-style: oblique;
+  color: blue;
+}
+
+button {
+  position: relative;
+  margin-top: 20px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: -4px 4px 20px rgba(12, 11, 11, 0.5);
+}
+
+#quoates:active {
+  background-color: blueviolet;
+}
+
+/* top:0px; *
+  box-shadow: 0 4px 8px rgba(233, 221, 221, 0.2);/
+font-size: larger;
+
+}
+ */
+
+.sdiv {
+  position: relative;
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+/* 
+pixel made it stay at a particular position in all screen, 
+which helped me relatively center the firt div
+ vertically in all screen size */
