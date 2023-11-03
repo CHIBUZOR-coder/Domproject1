@@ -10,7 +10,7 @@ body {
   position: relative;
   display: flow-root;
   height: 100vh;
-  background: url(../imajes/good.jpg) no-repeat center/ cover;
+  background: url(./imajes/good.jpg) no-repeat center/ cover;
 }
 
 #quoates {
