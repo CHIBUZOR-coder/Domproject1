@@ -224,7 +224,7 @@ which helped me relatively center the firt div
 
 
  
-@media (min-width: 273px) and (max-width:281px) {
+@media (min-width: 273px) and (max-width:359.9px) {
   .person {
    margin-top: 60px;
    margin-bottom: 0px;
@@ -244,19 +244,7 @@ which helped me relatively center the firt div
   } */
 
 } 
-
-
-
-@media (min-width:319px) and (max-width:330px) {
-
-  .person {
-   margin-top: 55px;
-   margin-bottom: -5px;
-  }
-.first{
-margin-top: 30px;
-}
-} 
+/*   */
 
 
 
