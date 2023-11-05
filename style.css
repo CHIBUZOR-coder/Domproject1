@@ -23,14 +23,15 @@ body {
   position: relative;
   width: 80%;
   height: 300px;
-  margin: 120px auto 0 auto;
+   margin: 90px auto 0 auto; 
+
   /* background-color: blue; */
   display: flow-root;
 }
 .container {
   position: relative;
   width: 100%;
-  height: 100%;
+height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -54,7 +55,7 @@ body {
   padding: 4px;
 }
 
-.sdiv{
+.sdiv {
   position: relative;
   height: 50%;
 }
@@ -64,6 +65,7 @@ body {
   top: 15px;
   padding-top: 5px;
   font-size: 1.3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .person {
@@ -107,3 +109,160 @@ font-size: larger;
 pixel made it stay at a particular position in all screen, 
 which helped me relatively center the firt div
  vertically in all screen size */
+
+
+ 
+
+
+
+
+@media (min-width: 119px) and (max-width:125px) {
+  .person {
+   margin-top: 70px;
+   margin-bottom: 0px;
+  }
+  body{
+    font-size: 0.6rem;
+  }
+
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+@media (min-width: 127px) and (max-width:152px) {
+  .person {
+   margin-top: 70px;
+   margin-bottom: 0px;
+  }
+  body{
+    font-size: 0.7rem;
+  }
+/* .quot{
+  font-size: 1.25rem;
+} */
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 153px) and (max-width:178px) {
+  .person {
+   margin-top: 32px;
+   margin-bottom: -15px;
+  }
+  body{
+    font-size: 0.53rem;
+  }
+/* .quot{
+  font-size: 1.25rem;
+} */
+  .first{
+    height: 265px;
+    margin: 10px auto ;
+    padding-bottom: 80px;
+  }
+
+}
+
+ 
+@media (min-width: 179px) and (max-width:196px) {
+  .person {
+   margin-top: 70px;
+   margin-bottom: 0px;
+  }
+  body{
+    font-size: 0.84rem;
+  }
+/* .quot{
+  font-size: 1.25rem;
+} */
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+ 
+@media (min-width: 197px) and (max-width:220px) {
+  .person {
+   margin-top: 70px;
+   margin-bottom: 0px;
+  }
+  body{
+    font-size: 0.9rem;
+  }
+/* .quot{
+  font-size: 1.25rem;
+} */
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+
+ 
+@media (min-width: 221px) and (max-width:272px) {
+  .person {
+   margin-top: 70px;
+   margin-bottom: 0px;
+  }
+.quot{
+  font-size: 1.27rem;
+}
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+
+ 
+@media (min-width: 273px) and (max-width:281px) {
+  .person {
+   margin-top: 60px;
+   margin-bottom: 0px;
+  }
+
+  .first{
+    height: 350px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width:360px) and (max-width:499px) {
+/* .person {
+   margin-top: 30px;
+   margin-bottom:px;
+  } */
+
+} 
+
+
+
+@media (min-width:319px) and (max-width:330px) {
+
+  .person {
+   margin-top: 55px;
+   margin-bottom: -5px;
+  }
+.first{
+margin-top: 30px;
+}
+} 
+
+
+
+@media (min-width: 500px) {
+  .person {
+   margin-top: 15px;
+   margin-bottom: 5px;
+  }
+}
